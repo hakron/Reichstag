@@ -1,0 +1,44 @@
+@media screen and (device-width: 1024px) and (device-height: 768px){
+    .txt{
+        font-size: 16px;
+    }
+}
+@media screen and (device-width: 768px) and (device-height: 1024px){
+    #img-header {
+        width: 150px;
+        height: 50px;
+    }
+    #hamburger-menu {
+        width: 30px;
+        height: 45px;
+    }
+    #header{
+        height: 55px;
+        margin-right: 15px;
+    }
+    .main-ctn{
+        height: 560px;
+    }
+    .main-txt{
+        font-size: 30px;
+        padding: 20%;
+    }
+    #btn-start{
+        width:120px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .txt{
+        font-size: 20px;
+        margin: 0px;
+    }
+    #img-cat, #img-swim, #img-world, #img-colunms{
+        height: 115px;
+        width: 60px;
+        padding: 20px;
+    }
+    #txt-footer {
+        font-size: 20px;
+        margin: 5px;
+    }
+}

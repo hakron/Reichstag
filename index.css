@@ -1,0 +1,248 @@
+#menu-layer {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    z-index: 1000000000;
+    display: none;
+}
+
+#popup-layer {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    z-index: 1000000000;
+}
+
+#header {
+    height: 55px;
+    margin-right: 20px;
+}
+
+#img-header {
+    float: left;
+    width: 200px;
+    height: 50px;
+}
+
+#hamburger-menu {
+    float: right;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.pop-up {
+    /*display: none;
+    /* Hidden by default */
+    background: white;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 475px;
+    height: 180px;
+    overflow: hidden;
+    border-width: medium;
+    border-radius: 25px;
+    z-index: 1000000002;
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+}
+
+.popup-content h {
+    /*font-size: 16px;*/
+    font-family: Georgia, serif;
+}
+
+.popup-content p {
+    color: black;
+    /*font-weight: bold;*/
+    font-family: Georgia, serif;
+    font-size: 15px;
+}
+
+.close {
+    background: none;
+    position: absolute;
+    outline: none;
+    top: 0px;
+    right: 0;
+    padding: 7px 15px 0px 15px;
+    color: black;
+    border: 0;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main-ctn {
+    height: 500px;
+    text-align: center;
+}
+
+#main-pic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/reichstag.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.main-txt {
+    position: relative;
+    font-size: 30px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-style: oblique;
+    color: white;
+    padding: 15%;
+}
+
+#btn-start {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border-width: medium;
+    border-radius: 25px;
+    border-color: brown;
+    outline: none;
+    font-size: 20px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: brown;
+    margin: 0px auto;
+    cursor: pointer;
+}
+
+#cross {
+    background: none;
+    position: absolute;
+    outline: none;
+    top: 0px;
+    right: 0;
+    padding: 7px 15px 0px 15px;
+    color: black;
+    border: 0;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#menu-hamburger {
+    font-weight: bold;
+    font-size: 15px;
+    height: 132%;
+    width: 260px;
+    background: white;
+    float: right;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    text-align: left;
+    display: none;
+    z-index: 1000000001;
+    /*overflow-y: scroll;*/
+}
+
+#menu-hamburger ul {
+    margin: 30px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+#menu-hamburger li {
+    font-size: 20px;
+    font-family: sans-serif;
+    display: block;
+    padding: 15px 0 15px 0;
+}
+
+#menu-hamburger ul li:nth-child(5) a {
+    font-family: Georgia;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#menu-hamburger ul li:nth-child(5) a:hover {
+    color: red;
+}
+
+#menu-hamburger ul li:nth-child(-n+4) a {
+    color: #58ACFA;
+    text-decoration: none;
+}
+
+#menu-hamburger ul li:nth-child(-n+4) a:hover {
+    color: grey;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #BDBDBD;
+    text-align: center;
+    margin: auto;
+}
+
+.wrap {
+    display: inline-block;
+    margin: 20px;
+}
+
+.s-container {
+    width: 350px;
+    float: left;
+    margin: 5px;
+}
+
+#img-cat, #img-swim, #img-world, #img-colunms {
+    height: 60px;
+    width: 40px;
+    padding: 15px;
+    margin: 1px;
+    float: left;
+}
+
+.title {
+    font-size: 15px;
+    font-family: Georgia, serif;
+    margin: 0px;
+}
+
+.txt {
+    font-size: 13px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+.footer {
+    width: auto;
+    background-color: #424242;
+    margin: 0;
+    padding: 1px;
+}
+
+#txt-footer {
+    color: white;
+    font-size: 16px;
+    font-family: Georgia, serif;
+    margin: 5px;
+}
